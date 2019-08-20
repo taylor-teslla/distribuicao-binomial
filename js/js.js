@@ -1,37 +1,3 @@
-/*function displayclean(){
-	document.getElementById('display').value = '';
-}
-
-function insert(valor) {
-	document.getElementById('display').value += valor;
-}
-
-function calc(){
-	var result = 0;
-	result = document.getElementById('display').value;
-	document.getElementById('display').value = '';
-	document.getElementById('display').value = eval(result);
-
-}
-
-function calcs(){
-
-	val1 = document.getElementById('display01').value;
-	val2 = document.getElementById('display02').value;
-	var val1 = parseInt(val1),
-		val2 = parseInt(val2),
-		result = val1 + val2;
-	document.getElementById('display03').value = result;
-}
-
-function fatorial(num, fatorial){
-	let fatorial = 1;
-	for (x = 1; x <= num; x++){
-		fatorial*=x
-	}
-}
-*/
-
 function displayclean(){
 	document.getElementById('display01').value = '';
 	document.getElementById('display02').value = '';
