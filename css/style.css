@@ -1,0 +1,72 @@
+.home{
+	margin: 0 auto;
+	width: 500px;
+	height: 100%;
+	background-color: #FFF;
+}
+.display {
+	height: 35px;
+	width: 350px;
+	padding:5px;
+	margin: 10px;
+	background-color: #FFF;
+	border-radius: 15px;
+	border-color: white;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+.bottom{
+	padding-left: 10px;
+	height: 30px;
+	background-color: #FFF;
+	margin:10px;
+	font-family: sans-serif;
+	font-size: 16px;
+	border-radius: 10px
+}
+p{
+	margin:10px;
+	padding-left: 10px;
+	color: #000080;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+.resultados{
+	padding-top: 5px;
+	padding-bottom: : 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+	background-image: linear-gradient(#FFF, #F7F7F7);
+	border-radius: 30px 30px 30px 0px;
+}
+.coleta{
+	padding-top: 5px;
+	padding-bottom: : 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+	background-image: linear-gradient(#FFF, #F9F9F9);
+	border-radius: 30px 30px 30px 0px;
+}
+.clean{
+	padding-top: 5px;
+	padding-bottom: : 5px;
+	text-align: center;
+	margin:auto;
+	width: 100%;
+	background-image: linear-gradient(#FFF, #F9F9F9);
+	border-radius: 30px 30px 30px 0px;
+}
+.titulo h1{
+	padding-top: 5px;
+	padding-bottom: : 5px;
+	text-align: center;
+	margin:auto;
+	width: 100%;
+	background-image: linear-gradient(#FFF, #F9F9F9);
+	border-radius: 30px 30px 30px 0px;
+	font-size: 30px;
+	font-family: sans-serif;
+	color: #000080;
+}

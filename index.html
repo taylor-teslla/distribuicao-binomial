@@ -1,0 +1,49 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+
+	<head>
+        <title> Início </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Taylor">
+        <meta name="description" content="...">
+        <meta name="keywords" content="html5, tecnologia">
+        <link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/js.js"></script>
+
+    </head>
+
+	<body>
+		<div class="home">
+			<script type="text/javascript" src="js/js.js"></script>
+			<div class="titulo">
+				<h1>Caluladora de distribuição Binomial</h1>
+			</div>
+			<div class="coleta">
+					<p>Digite o numero de eventos <b>(N)</b>:</p>
+				<input type="text" id="display01" class="display" /> <br>
+					<p>Digite a probabilidade de sucesso, valor absoluto <b>(p)</b>: </p>
+				<input type="text" id="display02" class="display" /> <br>
+					<p>Digite o numero esperado de sucesso <b>(x)</b></p>
+				<input type="text" id="display03" class="display" /> <br>
+			</div>
+
+			<div class="resultados">
+				<p>Distribuição Binomial</p>
+				<input type="text" id="display04" class="display" /> <br>
+				<input type="submit" class="bottom" value="Calcular !" onclick="calc();"/>
+			</div>
+
+			<div class="resultados">
+				<p>Distribuição Binomial acumulada</p>
+				<input type="text" id="display05" class="display" /><br>
+				<input type="submit" class="bottom" value="Calcular !" onclick="calcacm();"/>
+			</div>
+			<br>
+			<div class="clean">
+				<input type="submit" class="bottom" value="Limpar Campos!" onclick="displayclean();"/>
+			</div>
+		</div>
+	</body>
+
+</html>
