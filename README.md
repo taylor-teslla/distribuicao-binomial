@@ -7,4 +7,4 @@ Calculadora de distribuição Binomial & acumulada.
 - X (Número de sucessos)
 - P (Probabilidade de sucesso)
 
-[Acesso:] (https://taylor-teslla.github.io/distribuicao-binomial/)
+[Acesso:](https://taylor-teslla.github.io/distribuicao-binomial/)
